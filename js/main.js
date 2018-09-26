@@ -158,7 +158,7 @@ jQuery(document).ready(function( $ ) {
     autoplay: true,
     dots: true,
     loop: true,
-    responsive: { 0: { items: 2 }, 768: { items: 4 }, 900: { items: 10 }
+    responsive: { 0: { items: 6 }, 768: { items: 6 }, 900: { items: 10 }
     }
   });
 
