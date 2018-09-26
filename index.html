@@ -585,7 +585,7 @@
 
         </div>
 		
-		<form action="https://formspree.io/sametdevek@gmail.com" method="POST">
+		<form action="https://formspree.io/sametdevek@gmail.com" method="POST" class="contactForm">
     <input type="text" name="name">
     <input type="email" name="_replyto">
 	<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Lütfen bize bir şey yaz." placeholder="Mesajınız"></textarea>
@@ -596,7 +596,7 @@
         <div class="form">
           <div id="sendmessage">Mesajınız gönderildi. Teşekkür ederiz</div>
           <div id="errormessage"></div>
-          <form action="https://formspree.io/sametdevek@gmail.com" method="POST" method="post" role="form" class="contactForm">
+          <form action="https://formspree.io/sametdevek@gmail.com" method="POST" role="form" class="contactForm">
             <div class="form-row">
               <div class="form-group col-md-6">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Adınız" data-rule="minlen:4" data-msg="Lütfen en az 4 karakter giriniz." />
@@ -615,8 +615,7 @@
               <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Lütfen bize bir şey yaz." placeholder="Mesajınız"></textarea>
               <div class="validation"></div>
             </div>
-            <div class="text-center"><button type="submit" value="Send">Mesajı Gönder</button></div>
-			<input type="submit" value="Send">
+            <div class="text-center"><input type="submit" value="Send"><button type="submit" value="Send">Mesajı Gönder</button></div
           </form>
         </div>
 
