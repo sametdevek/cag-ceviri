@@ -23,6 +23,15 @@ jQuery(document).ready(function( $ ) {
     },
     speed: 400
   });
+  
+  
+  // Initiate superfish on nav menu
+  $('.nav-menu-2').superfish({
+    animation: {
+      opacity: 'show'
+    },
+    speed: 400
+  });
 
   // Mobile Navigation
   if ($('#nav-menu-container').length) {
@@ -65,7 +74,7 @@ jQuery(document).ready(function( $ ) {
   }
 
   // Smooth scroll for the menu and links with .scrollto classes
-  $('.nav-menu a, #mobile-nav a, .scrollto').on('click', function() {
+  $('.nav-menu a, .nav-menu-2 a, #mobile-nav a, .scrollto').on('click', function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
       if (target.length) {
@@ -137,7 +146,7 @@ jQuery(document).ready(function( $ ) {
   // jQuery counterUp (used in Facts section)
   $('[data-toggle="counter-up"]').counterUp({
     delay: 10,
-    time: 1000
+    time: 1500
   });
 
   // Porfolio isotope and filter
@@ -155,7 +164,9 @@ jQuery(document).ready(function( $ ) {
 
   // Clients carousel (uses the Owl Carousel library)
   $(".clients-carousel").owlCarousel({
-    autoplay: true,
+	autoplay:true,
+    autoplayTimeout:1500,
+    autoplayHoverPause:false,
     dots: true,
     loop: true,
     responsive: { 0: { items: 6 }, 768: { items: 6 }, 900: { items: 10 }
@@ -171,3 +182,10 @@ jQuery(document).ready(function( $ ) {
   });
 
 });
+
+
+
+
+
+
+
