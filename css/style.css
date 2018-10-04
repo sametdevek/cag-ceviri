@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .carousel-item::before {
   content: '';
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.1);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -176,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro h2 {
-  color: #fff;
+  color: #df002c;
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 700;
@@ -191,7 +191,7 @@ h1, h2, h3, h4, h5, h6 {
 #intro p {
   width: 80%;
   margin: 0 auto 30px auto;
-  color: #fff;
+  color: #000;
 }
 
 @media (min-width: 1024px) {
