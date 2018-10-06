@@ -170,7 +170,7 @@ jQuery(document).ready(function( $ ) {
     autoplayHoverPause:false,
     dots: true,
     loop: true,
-    responsive: { 0: { items: 5 }, 768: { items: 6 }, 900: { items: 8 }
+    responsive: { 0: { items: 5 }, 768: { items: 5 }, 900: { items: 8 }
     }
   });
 

@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 1024px) {
   #header #logo {
-    padding-left: 150px;
+    padding-left: 80px;
   }
 }
 
@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo img {
   padding-bottom: 10px;
   margin: 0;
-  max-height: 90px;
+  width:250px;
 }
 
 @media (max-width: 768px) {
@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 28px;
   }
   #header #logo img {
-    max-height: 80px;
+    max-height: 100px;
   }
 }
 
@@ -628,6 +628,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   margin-bottom: 20px;
+  margin: 20px;
 }
 
 #about .about-col .img {
@@ -847,10 +848,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
-
-
-
-
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
@@ -866,13 +863,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio #portfolio-flters li {
   cursor: pointer;
-  margin: 15px 15px 15px 0;
+  margin: 10px 10px 10px 0;
   display: inline-block;
-  padding: 10px 30px;
+  padding: 5px 20px;
   font-size: 12px;
   line-height: 20px;
-  color: #666666;
-  border-radius: 4px;
+  color: #000;
+  border-radius: 14px;
   text-transform: uppercase;
   background: #fff;
   margin-bottom: 5px;
@@ -983,7 +980,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio .portfolio-item .portfolio-info h4 {
-  font-size: 12px;
+  font-size: 11px;
   line-height: 1px;
   font-weight: 700;
   margin-bottom: 18px;
@@ -1016,11 +1013,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   text-transform: uppercase;
 }
-
-
-
-
-
 
 
 /* Testimonials Section
@@ -1401,4 +1393,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ddd;
 }
+
+#footer img{
+  margin-bottom:10px;
+  width:240px;
+}
+
 
