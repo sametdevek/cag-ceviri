@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  padding: 5px 0;
+  padding: 0px 0;
   height: 92px;
   position: fixed;
   left: 0;
@@ -76,13 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.9);
   padding: 0px 0;
-  height: 95px;
-  transition: all 0.5s;
-}
-
-#nav-menu-container {
-  padding: 35px 0;
-  height: 82px;
+  height: 110px;
   transition: all 0.5s;
 }
 
@@ -92,8 +86,14 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 1024px) {
   #header #logo {
-    padding-left: 80px;
+    padding-left: 20px;
   }
+}
+
+#nav-menu-container {
+  padding: 35px 0;
+  height: 84px;
+  transition: all 0.5s;
 }
 
 #header #logo h1 {
@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo img {
   padding-bottom: 10px;
   margin: 0;
-  width:250px;
+  width:130%;
 }
 
 @media (max-width: 768px) {
@@ -334,7 +334,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1145px) {
   #nav-menu-container {
     display: none;
   }
@@ -342,7 +342,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Nav Meu Styling */
 .nav-menu a {
-  padding: 0 8px 10px 8px;
+  padding: 0 0px 10px 8px;
   text-decoration: none;
   display: inline-block;
   color: #fff;
@@ -352,6 +352,21 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   outline: none;
 }
+
+@media (max-width: 1250px){
+.nav-menu a {
+  padding: 0 0px 10px 4px;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  outline: none;
+}
+}
+
 
 .nav-menu li:hover > a, .nav-menu > .menu-active > a {
   color: #df002c;
@@ -409,7 +424,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1150px) {
   #mobile-nav-toggle {
     display: inline;
   }
@@ -888,6 +903,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio .portfolio-wrap {
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   transition: 0.3s;
+  width:115%;
 }
 
 #portfolio .portfolio-wrap:hover {
@@ -999,6 +1015,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item .portfolio-info h4 a {
   color: #333;
+  
 }
 
 #portfolio .portfolio-item .portfolio-info h4 a:hover {
