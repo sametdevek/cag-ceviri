@@ -816,7 +816,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 4px;
   text-transform: uppercase;
   background: #fff;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
   transition: all 0.3s ease-in-out;
 }
 
