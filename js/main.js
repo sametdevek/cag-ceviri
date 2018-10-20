@@ -144,12 +144,6 @@ jQuery(document).ready(function( $ ) {
     });
   }, { offset: '80%'} );
 
-  // jQuery counterUp (used in Facts section)
-  $('[data-toggle="counter-up"]').counterUp({
-    delay: 10,
-    time: 1250
-  });
-
   // Porfolio isotope and filter
   
   var portfolioIsotope = $('.portfolio-container').isotope({
@@ -173,14 +167,6 @@ jQuery(document).ready(function( $ ) {
     loop: true,
     responsive: { 0: { items: 5 }, 768: { items: 5 }, 900: { items: 8 }
     }
-  });
-
-  // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonials-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    items: 1
   });
 
 });
