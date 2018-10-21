@@ -621,7 +621,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
 }
 
-#about::before {
+#about:before {
   content: '';
   position: absolute;
   left: 0;
@@ -758,6 +758,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #clients {
   padding: 60px 0;
+}
+
+#clients {
+  background: url("../img/world.jpg") center top no-repeat fixed;
+  background-size: cover;
+  padding: 60px 0 40px 0;
+  position: relative;
+}
+
+#clients:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.85);
 }
 
 #clients img {
