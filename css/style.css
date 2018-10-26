@@ -58,6 +58,24 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/*scroll bar style*/
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: #ffffff; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c7022a; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bd0228; 
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -1260,5 +1278,3 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom:10px;
   width:240px;
 }
-
-
