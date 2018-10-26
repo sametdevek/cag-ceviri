@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*scroll bar style*/
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 9px;
 }
 
 ::-webkit-scrollbar-track {
@@ -70,6 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 
 ::-webkit-scrollbar-thumb {
   background: #c7022a; 
+  border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
