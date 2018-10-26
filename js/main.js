@@ -24,7 +24,6 @@ jQuery(document).ready(function( $ ) {
     speed: 400
   });
   
-  
   // Initiate superfish on nav menu
   $('.nav-menu-2').superfish({
     animation: {

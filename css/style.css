@@ -382,6 +382,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
   text-transform: uppercase;
   outline: none;
+  
 }
 }
 
@@ -428,7 +429,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   top: 0;
   z-index: 999;
-  margin: 20px 20px 0 0;
+  margin: 40px 20px 0 0;
   border: 0;
   background: none;
   font-size: 24px;
@@ -1095,7 +1096,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .form input, #contact .form textarea {
   padding: 10px 14px;
-  border-radius: 0;
+  border-radius: 8px;
   box-shadow: none;
   font-size: 15px;
 }
@@ -1108,7 +1109,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.4s;
   cursor: pointer;
 }
-
+  
 #contact .form button[type="submit"]:hover {
   background: #fff;
   color: #df002c;
